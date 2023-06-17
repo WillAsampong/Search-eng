@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgb(240, 239, 243);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 375px;
+    height: 570px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 24px 8px;
+    overflow-y:scroll;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.container form {
+    width: 100%;
+    border: 1px solid rgb(82, 74, 235);
+    border-radius: 4px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.container form input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+}
+
+.container form i {
+    padding: 10px;
+}
+
+.t1 {
+    width: 65px;
+    height: 65px;
+    background-color: #434343;
+    border-radius: 7px;
+}
+.t2 {
+    width: 65px;
+    height: 65px;
+    background-color: #70fb6b;
+    border-radius: 7px;
+}
+.t3 {
+    width: 65px;
+    height: 65px;
+    background-color: #235a82;
+    border-radius: 7px;
+}
+.t4 {
+    width: 65px;
+    height: 65px;
+    background-color: #c67b41;
+    border-radius: 7px;
+}
+.t5 {
+    width: 65px;
+    height: 65px;
+    background-color: #840707;
+    border-radius: 7px;
+}
+.t6 {
+    width: 65px;
+    height: 65px;
+    background-color: #371c65;
+    border-radius: 7px;
+}
+.t7 {
+    width: 65px;
+    height: 65px;
+    background-color: #2a854a50;
+    border-radius: 7px;
+}
+.t8 {
+    width: 65px;
+    height: 65px;
+    background-color: #0e6b66;
+    border-radius: 7px;
+}
+.t9 {
+    width: 65px;
+    height: 65px;
+    background-color: #2f0d1d;
+    border-radius: 7px;
+}
+.t10 {
+    width: 65px;
+    height: 65px;
+    background-color: #f9ff3f;
+    border-radius: 7px;
+}
+.t11 {
+    width: 65px;
+    height: 65px;
+    background-color: #0a6262;
+    border-radius: 7px;
+}
+.t12 {
+    width: 65px;
+    height: 65px;
+    background-color: #cdcccc;
+    border-radius: 7px;
+}
+
+.product {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.product-details {
+    margin-left: 13px;
+}
+
+.product h2{
+    font-size: 18px;
+}
+
+.product h3 {
+    font-size: 16px;
+    color:rgb(101, 97, 97);
+}
